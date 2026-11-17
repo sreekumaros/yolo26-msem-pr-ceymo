@@ -1,0 +1,66 @@
+{
+  "protocol": "official CeyMo test; scene-grouped val from official train",
+  "seed": 0,
+  "val_frac": 0.15,
+  "max_class_fraction_deviation": 0.0409,
+  "train_images_dropped_scene_overlap_with_test": 13,
+  "train": {
+    "images": 1770,
+    "scenes": 566,
+    "instances": 2912,
+    "per_class": {
+      "BL": 117,
+      "CL": 51,
+      "DM": 662,
+      "JB": 106,
+      "LA": 101,
+      "PC": 514,
+      "RA": 223,
+      "SA": 878,
+      "SL": 59,
+      "SLA": 152,
+      "SRA": 49
+    }
+  },
+  "val": {
+    "images": 316,
+    "scenes": 100,
+    "instances": 554,
+    "per_class": {
+      "BL": 25,
+      "CL": 10,
+      "DM": 108,
+      "JB": 22,
+      "LA": 17,
+      "PC": 97,
+      "RA": 37,
+      "SA": 199,
+      "SL": 10,
+      "SLA": 23,
+      "SRA": 6
+    }
+  },
+  "test": {
+    "images": 788,
+    "scenes": 264,
+    "instances": 1218,
+    "per_class": {
+      "BL": 49,
+      "CL": 21,
+      "DM": 277,
+      "JB": 44,
+      "LA": 44,
+      "PC": 228,
+      "RA": 92,
+      "SA": 352,
+      "SL": 28,
+      "SLA": 61,
+      "SRA": 22
+    }
+  },
+  "scene_overlap": {
+    "train-val": 0,
+    "train-test": 0,
+    "val-test": 0
+  }
+}
